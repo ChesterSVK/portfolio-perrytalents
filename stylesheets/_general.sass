@@ -1,0 +1,67 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  Brand
+
+@import "../fonts/PT-Sans/font.min.css"
+@import "../fonts/PierSans/font.min.css"
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////// Neutral
+$c-neutral-1: #000000
+$c-neutral-2: #1A1A1A
+$c-neutral-3: #272829
+$c-neutral-4: #4D4D4D
+$c-neutral-5: #666666
+$c-neutral-6: #808080
+$c-neutral-6-grandient: linear-gradient(0deg, $c-neutral-6 0%,$c-neutral-6 100%)
+$c-neutral-7: #999999
+$c-neutral-8: #B3B3B3
+$c-neutral-9: #CCCCCC
+$c-neutral-10: #F4F4F4
+$c-neutral-10-grandient: linear-gradient(0deg, $c-neutral-10 0%,$c-neutral-10 100%)
+$c-neutral-11: #FFFFFF
+$c-neutral-11-grandient: linear-gradient(0deg, $c-neutral-11 0%,$c-neutral-11 100%)
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////// Primary
+$c-primary-1: #16243C
+$c-primary-2: #1E2E46
+////////////////////////////////////////////////////////////////////////////////////////////////////////////// Secondary
+$c-secondary-1: #E1BE23
+////////////////////////////////////////////////////////////////////////////////////////////////////////////// Gradient
+$c-grandient-yellow: linear-gradient(214.51deg, #EAD123 0%, #D7A923 100%)
+$c-grandient-yellow-2: linear-gradient(214.51deg, #D7A923 0%, #EAD123 100%)
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////// SVG
+$project-logo-1-svg:url("../images/logos/svg/perry_vector.svg")
+$project-logo-2-svg:url("../images/logos/svg/perry_white.svg")
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  Typography
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////// Font
+$font-family-g: "canada-type-gibson", sans-serif
+$font-family-ps: "PierSans-Regular", sans-serif
+$font-family-psl: "PierSans-Light", sans-serif
+$font-family-psb: "PierSans-Bold", sans-serif
+$font-family-pt: "PTSans-Regular", sans-serif
+$font-family-ptb: "PTSans-Bold", sans-serif
+$font-weight-light: 300
+$font-weight-normal: 500
+$font-weight-bold: 700
+
+.font-uppercase
+  text-transform: uppercase
+
+.font-capitalize
+  text-transform: capitalize
+
+.perry-blue-bg
+  background: url("../images/perry_blue.jpg")
+  background-position: center center
+  background-size: 100% auto
+
+.header-subtitle
+  color: $c-secondary-1
+  font-family: $font-family-ps
+  font-weight: $font-weight-bold
+  font-size: 12px
+  line-height: 16px
+  text-align: left
+  &:before
+    content: ''
+    display: inline-block
+    border-top: 1px solid $c-secondary-1
+    margin: 6px 6px 6px 0
+
